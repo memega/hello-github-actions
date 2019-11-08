@@ -10,3 +10,5 @@ jobs:
     - uses: ./action-a
       env:
         MY_NAME: "Mona"
+    - name: shellcheck
+      uses: ludeeus/action-shellcheck@0.0.1
